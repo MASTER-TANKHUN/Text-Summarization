@@ -1,55 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 h2 {
-    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 form {
-    background: white;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
     padding: 20px;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 textarea {
-    width: 100%;
+    width: 80%;
     height: 150px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    resize: none;
 }
 
 button {
-    background: #007bff;
+    background: #ff7eb3;
     color: white;
-    padding: 10px 20px;
+    font-size: 1rem;
+    padding: 12px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
     margin-top: 10px;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #ff3b80;
+    transform: scale(1.05);
 }
 
 h3 {
     margin-top: 20px;
-    color: #333;
+    font-size: 1.5rem;
 }
 
 p {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.2);
     padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    max-width: 500px;
+    max-width: 600px;
+    font-size: 1.1rem;
 }
